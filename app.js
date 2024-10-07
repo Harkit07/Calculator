@@ -20,22 +20,9 @@ for (btn of btns) {
 }
 
 del.addEventListener("click", function () {
-  console.log("click");
-  let array = result.children;
-  let arr = array[array.length-1];
-  console.log(event);
-  // console.dir(num);
-  // result.remove(num);
-  arr.innerHTML = "";
-  console.dir(result.children);
-  // result.removeChild()
-  // if(arr.nodeName = "P") {
-  //   let item = arr
-  //   result.remove(arr.outerHTML);
-  // }
-  console.dir(arr);
-  // console.dir(result.childNodes.length);
-  // console.dir(result.lastChild.data);
+  let arr = result.childNodes;
+  arr = arr[arr.length-1];
+  result.removeChild(arr);
 });
 
 equal.addEventListener("click", function () {
