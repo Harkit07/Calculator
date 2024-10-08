@@ -9,6 +9,9 @@ let cal = document.querySelector(".cal");
 let mode = document.querySelector(".mode");
 let sun = document.querySelector(".sun");
 let moon = document.querySelector(".moon");
+let screen = document.querySelector(".screen");
+
+
 
 
 con.addEventListener("click", function () {
@@ -25,6 +28,10 @@ cal.addEventListener("click", function () {
 mode.addEventListener("click", function () {
   sun.classList.toggle("hide");
   moon.classList.toggle("hide");
+  screen.classList.toggle("black");
+  clearAll.classList.toggle("special");
+  del.classList.toggle("special");
+
 });
 
 

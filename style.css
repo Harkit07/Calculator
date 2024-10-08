@@ -23,6 +23,7 @@ body {
 
 .black {
     background-color: black;
+    color: #fff;
 }
 
 .nav-bar {
@@ -99,10 +100,6 @@ body {
     font-weight: 500;
 }
 
-/* .math {
-    color: #2ec4b6;
-} */
-
 .output {
     display: flex;
     justify-content: end;
@@ -111,7 +108,7 @@ body {
     color: #6c757d;
 }
 
-.action {
+.special {
     background-color: #6b807e;
     border-radius: 50%;
     color: #fdfffc;
