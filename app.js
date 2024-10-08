@@ -4,6 +4,30 @@ let clearAll = document.querySelector(".ACbtn");
 let del = document.querySelector(".del");
 let equal = document.querySelector(".equal");
 let p = document.querySelector(".output p");
+let con = document.querySelector(".conventer");
+let cal = document.querySelector(".cal");
+let mode = document.querySelector(".mode");
+let sun = document.querySelector(".sun");
+let moon = document.querySelector(".moon");
+
+
+con.addEventListener("click", function () {
+  con.classList.toggle("back");
+  cal.classList.toggle("back");
+
+});
+
+cal.addEventListener("click", function () {
+  cal.classList.toggle("back");
+  con.classList.toggle("back");
+});
+
+mode.addEventListener("click", function () {
+  sun.classList.toggle("hide");
+  moon.classList.toggle("hide");
+});
+
+
 
 clearAll.addEventListener("click", function () {
   result.innerText = "";
