@@ -93,11 +93,6 @@ body {
     color: #6c757d;
 }
 
-.btn>div {
-    height: fit-content;
-    width: fit-content;
-}
-
 .math {
     color: #2ec4b6;
 }
